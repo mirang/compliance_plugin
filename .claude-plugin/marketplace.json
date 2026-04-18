@@ -10,8 +10,8 @@
     {
       "name": "arctera-compliance",
       "source": {
-        "source": "github",
-        "repo": "mirang/compliance_plugin"
+        "source": "url",
+        "url": "https://github.com/mirang/compliance_plugin.git"
       },
       "description": "End-to-end e-discovery, PII auditing, regulatory compliance, and legal review workflows powered by the Arctera compliance archive.",
       "version": "1.0.0",
