@@ -22,16 +22,25 @@ Claude translates your requests into precise Lucene queries, searches emails, fi
 
 ## Installation
 
+**Option 1 — Install directly from GitHub** (recommended):
+
 ```bash
-claude --plugin-dir /path/to/arctera-compliance
+claude plugin install https://github.com/mirang/compliance_plugin
 ```
 
-Or add to your Claude Code settings:
+**Option 2 — Add to Claude Code settings:**
 
 ```json
 {
-  "plugins": ["/path/to/arctera-compliance"]
+  "plugins": ["https://github.com/mirang/compliance_plugin"]
 }
+```
+
+**Option 3 — Clone and install locally:**
+
+```bash
+git clone https://github.com/mirang/compliance_plugin
+claude plugin install ./compliance_plugin
 ```
 
 ---
