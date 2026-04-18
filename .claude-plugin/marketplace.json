@@ -1,0 +1,24 @@
+{
+  "name": "arctera-compliance",
+  "owner": {
+    "name": "Arctera"
+  },
+  "metadata": {
+    "description": "Arctera Compliance Suite — e-discovery, PII auditing, regulatory compliance, and legal review workflows powered by the Arctera compliance archive."
+  },
+  "plugins": [
+    {
+      "name": "arctera-compliance",
+      "source": {
+        "source": "github",
+        "repo": "mirang/compliance_plugin"
+      },
+      "description": "End-to-end e-discovery, PII auditing, regulatory compliance, and legal review workflows powered by the Arctera compliance archive.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arctera"
+      },
+      "license": "MIT"
+    }
+  ]
+}
