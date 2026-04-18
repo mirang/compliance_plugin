@@ -4,5 +4,8 @@
   "version": "1.0.0",
   "author": {
     "name": "Arctera"
-  }
+  },
+  "skills": "./skills",
+  "commands": "./commands",
+  "mcpServers": "./.mcp.json"
 }
