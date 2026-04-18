@@ -1,0 +1,8 @@
+{
+  "name": "arctera-compliance",
+  "description": "Arctera Compliance Archive Plugin. Automated first-pass legal review and PII audit workflows over archived emails, files, and collaboration messages.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Arctera"
+  }
+}

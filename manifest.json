@@ -1,0 +1,257 @@
+{
+  "name": "arctera-compliance",
+  "version": "1.0.0",
+  "displayName": "Arctera Compliance Suite",
+  "description": "End-to-end e-discovery, PII auditing, regulatory compliance, and legal review workflows powered by the Arctera compliance archive. Covers the full compliance lifecycle — from first-pass review and custodian collection through regulatory scanning, DSAR processing, and pre-export clearance.",
+  "author": "Arctera",
+  "license": "MIT",
+  "keywords": [
+    "compliance",
+    "ediscovery",
+    "pii",
+    "legal",
+    "regulatory",
+    "arctera",
+    "gdpr",
+    "dsar",
+    "aml",
+    "fcpa",
+    "insider-trading",
+    "legal-hold",
+    "archive"
+  ],
+  "commands": [
+    {
+      "name": "arctera-review",
+      "description": "First-pass legal and compliance review over the Arctera archive",
+      "file": "commands/arctera-review.md"
+    },
+    {
+      "name": "arctera-audit-pii",
+      "description": "PII audit and sensitive data scrubbing over the Arctera archive",
+      "file": "commands/arctera-audit-pii.md"
+    },
+    {
+      "name": "arctera-matter",
+      "description": "Scoped legal matter review — search all archives by matter name, parties, and date range",
+      "file": "commands/arctera-matter.md"
+    },
+    {
+      "name": "arctera-custodian",
+      "description": "Pull all archived communications to/from a specific custodian across email, files, and chat",
+      "file": "commands/arctera-custodian.md"
+    },
+    {
+      "name": "arctera-timeline",
+      "description": "Build a chronological communication timeline around a topic or between parties across all archives",
+      "file": "commands/arctera-timeline.md"
+    },
+    {
+      "name": "arctera-thread",
+      "description": "Reconstruct a full conversation thread across email, files, and collaboration archives in one view",
+      "file": "commands/arctera-thread.md"
+    },
+    {
+      "name": "arctera-legal-hold",
+      "description": "Identify legal hold candidates matching specified matter criteria across all archives",
+      "file": "commands/arctera-legal-hold.md"
+    },
+    {
+      "name": "arctera-dsar",
+      "description": "Data Subject Access Request — find all archived data referencing a named individual",
+      "file": "commands/arctera-dsar.md"
+    },
+    {
+      "name": "arctera-gdpr-delete",
+      "description": "GDPR erasure pre-deletion audit — identify all records for an individual before processing erasure",
+      "file": "commands/arctera-gdpr-delete.md"
+    },
+    {
+      "name": "arctera-data-exposure",
+      "description": "Identify sensitive data sent to external or unexpected recipients across the archive",
+      "file": "commands/arctera-data-exposure.md"
+    },
+    {
+      "name": "arctera-regulatory",
+      "description": "Scan for SEC, FINRA, FCA, CFTC and other regulatory red flags across all archives",
+      "file": "commands/arctera-regulatory.md"
+    },
+    {
+      "name": "arctera-insider-risk",
+      "description": "Detect insider trading signals and MNPI-related communications across the archive",
+      "file": "commands/arctera-insider-risk.md"
+    },
+    {
+      "name": "arctera-fcpa",
+      "description": "FCPA and anti-bribery compliance scan across all archived communications",
+      "file": "commands/arctera-fcpa.md"
+    },
+    {
+      "name": "arctera-conflicts",
+      "description": "Conflicts of interest detection across all archived communications",
+      "file": "commands/arctera-conflicts.md"
+    },
+    {
+      "name": "arctera-aml",
+      "description": "Anti-money laundering signal scan across the compliance archive",
+      "file": "commands/arctera-aml.md"
+    },
+    {
+      "name": "arctera-cross-archive",
+      "description": "Correlate a topic across email, files, and collaboration archives in a unified view",
+      "file": "commands/arctera-cross-archive.md"
+    },
+    {
+      "name": "arctera-project",
+      "description": "Pull all communications related to a named deal or project across all archives",
+      "file": "commands/arctera-project.md"
+    },
+    {
+      "name": "arctera-attachment-audit",
+      "description": "Audit attachments by file type, sender, or recipient across the email archive",
+      "file": "commands/arctera-attachment-audit.md"
+    },
+    {
+      "name": "arctera-between",
+      "description": "Find all communications between two specific people across all archives",
+      "file": "commands/arctera-between.md"
+    },
+    {
+      "name": "arctera-external",
+      "description": "Audit all outbound communications sent to external domains across the archive",
+      "file": "commands/arctera-external.md"
+    },
+    {
+      "name": "arctera-channel-audit",
+      "description": "Audit a specific communication channel (Bloomberg, Teams, Slack, Reuters) for a topic or person",
+      "file": "commands/arctera-channel-audit.md"
+    },
+    {
+      "name": "arctera-pre-export",
+      "description": "Pre-export compliance checklist — PII, legal hold, and privilege checks before production",
+      "file": "commands/arctera-pre-export.md"
+    },
+    {
+      "name": "arctera-summary",
+      "description": "Executive summary report across a matter or topic for non-legal stakeholders",
+      "file": "commands/arctera-summary.md"
+    }
+  ],
+  "skills": [
+    {
+      "name": "arctera-review",
+      "description": "First-pass legal and compliance review over the Arctera archive",
+      "file": "skills/arctera-review/SKILL.md"
+    },
+    {
+      "name": "arctera-audit-pii",
+      "description": "PII audit and sensitive data scrubbing over the Arctera archive",
+      "file": "skills/arctera-audit-pii/SKILL.md"
+    },
+    {
+      "name": "arctera-matter",
+      "description": "Scoped legal matter review across all Arctera archives",
+      "file": "skills/arctera-matter/SKILL.md"
+    },
+    {
+      "name": "arctera-custodian",
+      "description": "Custodian communication pull across all Arctera archives",
+      "file": "skills/arctera-custodian/SKILL.md"
+    },
+    {
+      "name": "arctera-timeline",
+      "description": "Chronological communication timeline builder across all archives",
+      "file": "skills/arctera-timeline/SKILL.md"
+    },
+    {
+      "name": "arctera-thread",
+      "description": "Cross-archive conversation thread reconstruction",
+      "file": "skills/arctera-thread/SKILL.md"
+    },
+    {
+      "name": "arctera-legal-hold",
+      "description": "Legal hold candidate identification across all archives",
+      "file": "skills/arctera-legal-hold/SKILL.md"
+    },
+    {
+      "name": "arctera-dsar",
+      "description": "Data Subject Access Request processing across all Arctera archives",
+      "file": "skills/arctera-dsar/SKILL.md"
+    },
+    {
+      "name": "arctera-gdpr-delete",
+      "description": "GDPR erasure pre-deletion audit across all archives",
+      "file": "skills/arctera-gdpr-delete/SKILL.md"
+    },
+    {
+      "name": "arctera-data-exposure",
+      "description": "Sensitive data external exposure detection across the archive",
+      "file": "skills/arctera-data-exposure/SKILL.md"
+    },
+    {
+      "name": "arctera-regulatory",
+      "description": "Regulatory red flag scan across all archives",
+      "file": "skills/arctera-regulatory/SKILL.md"
+    },
+    {
+      "name": "arctera-insider-risk",
+      "description": "Insider trading and MNPI signal detection across the archive",
+      "file": "skills/arctera-insider-risk/SKILL.md"
+    },
+    {
+      "name": "arctera-fcpa",
+      "description": "FCPA and anti-bribery compliance scan across all archives",
+      "file": "skills/arctera-fcpa/SKILL.md"
+    },
+    {
+      "name": "arctera-conflicts",
+      "description": "Conflicts of interest detection across all archives",
+      "file": "skills/arctera-conflicts/SKILL.md"
+    },
+    {
+      "name": "arctera-aml",
+      "description": "Anti-money laundering signal scan across the archive",
+      "file": "skills/arctera-aml/SKILL.md"
+    },
+    {
+      "name": "arctera-cross-archive",
+      "description": "Cross-archive topic correlation across email, files, and collaboration",
+      "file": "skills/arctera-cross-archive/SKILL.md"
+    },
+    {
+      "name": "arctera-project",
+      "description": "Project or deal full archive communication pull",
+      "file": "skills/arctera-project/SKILL.md"
+    },
+    {
+      "name": "arctera-attachment-audit",
+      "description": "Attachment type audit across the email archive",
+      "file": "skills/arctera-attachment-audit/SKILL.md"
+    },
+    {
+      "name": "arctera-between",
+      "description": "Point-to-point communication audit between two specific parties",
+      "file": "skills/arctera-between/SKILL.md"
+    },
+    {
+      "name": "arctera-external",
+      "description": "Outbound communication audit to external domains",
+      "file": "skills/arctera-external/SKILL.md"
+    },
+    {
+      "name": "arctera-channel-audit",
+      "description": "Channel-specific communication audit (Bloomberg, Teams, Slack, Reuters)",
+      "file": "skills/arctera-channel-audit/SKILL.md"
+    },
+    {
+      "name": "arctera-pre-export",
+      "description": "Pre-export compliance readiness check — PII, hold, and privilege",
+      "file": "skills/arctera-pre-export/SKILL.md"
+    },
+    {
+      "name": "arctera-summary",
+      "description": "Executive summary report generation across a matter or topic",
+      "file": "skills/arctera-summary/SKILL.md"
+    }
+  ]
+}

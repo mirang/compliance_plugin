@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "arctera-compliance": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://discovery.qa.arctera.com/mcp"
+      ]
+    }
+  }
+}
