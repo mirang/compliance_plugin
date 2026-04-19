@@ -18,7 +18,11 @@
       "author": {
         "name": "Arctera"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "skills": "./skills",
+      "commands": "./commands",
+      "mcpServers": "./.mcp.json",
+      "strict": false
     }
   ]
 }
